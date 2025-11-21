@@ -38,7 +38,10 @@
 </head>
 
 <body class="index-page">
-
+<div id="preloader" class="preloader">
+  <div class="preloader-spinner"></div>
+  <p>Kraunasi...</p>
+</div>
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
 
@@ -579,7 +582,8 @@
 </div>
 
         <!-- Services Section -->
-    <section id="services" class="services section">
+ <section id="services" class="services section services-gradient">
+
 
       <div class="container section-title">
         <h2>Servisai</h2>
@@ -904,6 +908,12 @@
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="about-shapes" aria-hidden="true">
+  <span class="shape shape-circle"></span>
+  <span class="shape shape-square"></span>
+  <span class="shape shape-triangle"></span>
+</div>
+
 
         <div class="row g-4 g-lg-5">
           <div class="col-lg-5">
@@ -1024,6 +1034,11 @@
   <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script>
+  window.addEventListener('load', function () {
+    document.body.classList.add('preload-done');
+  });
+</script>
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
