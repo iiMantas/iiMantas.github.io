@@ -34,6 +34,7 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/custom.css" rel="stylesheet">
 </head>
 
 <body class="index-page">
@@ -546,8 +547,38 @@
       </div>
 
     </section><!-- /Resume Section -->
+<div class="container mt-4" data-aos="fade-up" data-aos-delay="150">
 
-    <!-- Services Section -->
+  <div class="row">
+    <!-- Nenumeruotas sąrašas su įdėtu sąrašu -->
+    <div class="col-lg-6 mb-4">
+      <h3 class="mb-3">Pagrindinės kompetencijos</h3>
+      <ul class="custom-bullet-list">
+        <li>Varikliai ir pavaros
+          <ul>
+            <li>Asinchroniniai varikliai</li>
+            <li>Servo pavaros</li>
+          </ul>
+        </li>
+        <li>Dažnio keitiklių parinkimas ir paleidimas</li>
+        <li>Diagnostika ir profilaktinė priežiūra</li>
+      </ul>
+    </div>
+
+    <!-- Numeruotas sąrašas su CSS counter -->
+    <div class="col-lg-6 mb-4">
+      <h3 class="mb-3">Tipinis gedimo šalinimo planas</h3>
+      <ol class="steps-counter-list">
+        <li>Surinkti informaciją apie įrenginį ir gedimą.</li>
+        <li>Atlikti vizualinę apžiūrą ir reikiamus matavimus.</li>
+        <li>Parinkti sprendimą, pakeisti detales ir atstatyti darbą.</li>
+      </ol>
+    </div>
+  </div>
+
+</div>
+
+        <!-- Services Section -->
     <section id="services" class="services section">
 
       <div class="container section-title">
@@ -557,6 +588,7 @@
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
+        <!-- Kortelės -->
         <div class="row g-4">
 
           <!-- Card 1 -->
@@ -612,6 +644,44 @@
 
         </div><!-- End row g-4 su kortelėmis -->
 
+        <!-- Paslaugų lentelė -->
+        <div class="mt-4" data-aos="fade-up" data-aos-delay="150">
+          <h3 class="text-center mb-3">Paslaugų kainoraštis</h3>
+
+          <div class="table-responsive">
+            <table class="services-table">
+              <thead>
+                <tr>
+                  <th>Paslauga</th>
+                  <th>Aprašymas</th>
+                  <th>Kategorija</th>
+                  <th>Kaina (Eur)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Dažnio keitiklio parinkimas</td>
+                  <td>Keitiklio parinkimas pagal variklį ir apkrovą, schemų peržiūra.</td>
+                  <td>Projektavimas</td>
+                  <td>100</td>
+                </tr>
+                <tr>
+                  <td>Paleidimas ir derinimas</td>
+                  <td>Keitiklio parametrų suvedimas, bandomasis paleidimas, dokumentacija.</td>
+                  <td>Servisas</td>
+                  <td>150</td>
+                </tr>
+                <tr>
+                  <td>Variklio diagnostika</td>
+                  <td>Vibracijos ir izoliacijos patikra, būklės įvertinimas.</td>
+                  <td>Diagnostika</td>
+                  <td>80</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
         <!-- Media turinys -->
         <div class="row mt-5">
 
@@ -649,6 +719,7 @@
       </div><!-- /container -->
 
     </section><!-- /Services Section -->
+
 
     <!-- Portfolio Section -->
     <section id="portfolio" class="portfolio section">

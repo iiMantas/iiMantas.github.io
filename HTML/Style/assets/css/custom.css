@@ -1,0 +1,310 @@
+/* ===== Manto custom.css ===== */
+/* Visi nauji/pakeisti stiliai – tik šiame faile */
+
+/* Bendras puslapio fonas ir šriftai */
+body {
+  font-family: "Open Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.6;
+  background-color: #000000;     /* juodas fonas */
+  color: #f5f5f5;                /* šviesus tekstas */
+}
+
+/* Antraštės (h1–h6) – kitas, labiau „headline“ šriftas */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Quicksand", "Roboto", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+/* Pagrindinės hero antraštės stilius */
+.hero-title {
+  font-size: 3rem;
+  letter-spacing: 0.06em;
+}
+
+/* Sekcijų pavadinimai */
+.section-title h2 {
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+}
+
+/* Pagrindinis violetinis mygtukas */
+.btn.btn-primary {
+  background: #8b5cf6;
+  border-color: #8b5cf6;
+  border-radius: 999px;
+  padding: 0.75rem 2.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  transition: all 0.25s ease;
+}
+
+/* Pagrindinis mygtukas, kai užvedi pelę */
+.btn.btn-primary:hover,
+.btn.btn-primary:focus {
+  background: #a855f7;
+  border-color: #a855f7;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+}
+
+/* Kontūrinis mygtukas */
+.btn.btn-outline {
+  border-radius: 999px;
+  border-width: 2px;
+  border-color: #8b5cf6;
+  color: #e9d5ff;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  transition: all 0.25s ease;
+}
+
+/* Kontūrinis hover */
+.btn.btn-outline:hover,
+.btn.btn-outline:focus {
+  background: #8b5cf6;
+  color: #ffffff;
+}
+
+/* Pagrindinės nuorodos */
+a {
+  color: #a855f7;
+  text-decoration: none;
+  transition: color 0.2s ease, text-decoration-color 0.2s ease;
+}
+
+a:hover,
+a:focus {
+  color: #e879f9;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+/* Vienodi vertikalūs tarpai visoms pagrindinėms sekcijoms */
+section.section {
+  padding: 80px 0;
+}
+
+/* Teksto blokų plotis, kad nesklistų per visą ekraną */
+.section .container {
+  max-width: 1140px;
+}
+
+/* Sekcijos pavadinimo tekstas – siauresnis */
+.section-title p {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+/* Bendras kortelių stilius */
+.service-item,
+.skill-card,
+.portfolio-entry,
+.faq-item {
+  border-radius: 18px;
+  border: 1px solid rgba(15, 23, 42, 0.4);
+  box-shadow: 0 14px 35px rgba(15, 23, 42, 0.6);
+  padding: 24px;
+  background: #111827; /* tamsi kortelė ant juodo fono */
+}
+
+/* Kad portfolio 3 grafikai gražiai susilygiuotų */
+.portfolio .portfolio-item .entry-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Fono spalva ir šešėlis headeriui */
+.header {
+  background: rgba(15, 23, 42, 0.96);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+}
+
+/* Meniu nuorodos */
+.navmenu > ul > li > a {
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  padding: 12px 18px;
+  color: #e5e7eb;
+}
+
+/* Aktyvi / užhoverinta nuoroda */
+.navmenu > ul > li > a:hover,
+.navmenu > ul > li > a:focus,
+.navmenu > ul > li > a.active {
+  color: #e879f9;
+}
+
+.navmenu > ul > li > a::after {
+  content: "";
+  display: block;
+  height: 3px;
+  margin-top: 4px;
+  border-radius: 999px;
+  background: transparent;
+  transition: background 0.25s ease;
+}
+
+.navmenu > ul > li > a:hover::after,
+.navmenu > ul > li > a:focus::after,
+.navmenu > ul > li > a.active::after {
+  background: #a855f7;
+}
+
+/* Scroll-top mygtukas */
+#scroll-top {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: #8b5cf6;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.9);
+}
+
+#scroll-top i {
+  font-size: 1.8rem;
+  color: #ffffff;
+}
+
+#scroll-top:hover {
+  background: #a855f7;
+}
+
+/* Šviesesnis tekstas ant juodo fono */
+.section-title h2,
+.section-title p,
+p,
+li {
+  color: #e5e7eb;
+}
+
+/* --- Nenumeruotas sąrašas su custom bulletais --- */
+.custom-bullet-list,
+.custom-bullet-list ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.custom-bullet-list li {
+  position: relative;
+  padding-left: 2.2rem;
+  margin-bottom: 0.4rem;
+}
+
+/* Pagrindiniai punktai – „apskritimas“ su pseudo-elementu */
+.custom-bullet-list > li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  top: 0.1rem;
+  width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 50%;
+  border: 2px solid #a855f7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  color: #a855f7;
+}
+
+/* Įdėtas sąrašas (nested list) – kitoks bullet */
+.custom-bullet-list li ul li {
+  margin-top: 0.1rem;
+}
+
+.custom-bullet-list li ul li::before {
+  content: "–";
+  position: absolute;
+  left: 0.5rem;
+  top: 0;
+  color: #9ca3af;
+  border: none;
+  width: auto;
+  height: auto;
+}
+
+/* --- Numeruotas sąrašas su CSS counter --- */
+.steps-counter-list {
+  list-style: none;
+  counter-reset: steps-counter;
+  padding-left: 0;
+  margin: 0;
+}
+
+.steps-counter-list li {
+  counter-increment: steps-counter;
+  position: relative;
+  padding-left: 2.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.steps-counter-list li::before {
+  content: counter(steps-counter);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background: #a855f7;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+/* --- Paslaugų lentelė --- */
+.services-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  background-color: rgba(15, 23, 42, 0.9); /* tamsus fonas */
+  color: #f5f5f5;
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+/* Antraštinė eilutė – ryški, violetinė */
+.services-table thead tr {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Vienodas cell padding + centras */
+.services-table th,
+.services-table td {
+  padding: 0.75rem 1rem;
+  text-align: center;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.4);
+}
+
+/* Zebra + hover efektas */
+.services-table tbody tr:nth-child(odd) {
+  background-color: rgba(17, 24, 39, 0.9);
+}
+
+.services-table tbody tr:nth-child(even) {
+  background-color: rgba(31, 41, 55, 0.9);
+}
+
+.services-table tbody tr:hover {
+  background-color: rgba(139, 92, 246, 0.55);
+  transition: background-color 0.2s ease;
+}
