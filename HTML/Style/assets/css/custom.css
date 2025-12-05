@@ -623,3 +623,39 @@ body.preload-done .preloader {
     animation: none;
   }
 }
+/* ---- Kontaktų formos klaidų stiliai ---- */
+.input-error {
+  border-color: #ef4444 !important; /* raudonas rėmelis, kai klaida */
+}
+
+.field-error {
+  color: #ef4444;
+  font-size: 0.85rem;
+  margin-top: 4px;
+}
+
+/* ---- Kontaktų formos mygtukas su rėmeliu ---- */
+.contact-form .btn {
+  border: 2px solid #8b5cf6;      /* violetinis rėmelis aplink mygtuką */
+  padding: 10px 25px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+/* Hover efektas, kai užvedi pelę */
+.contact-form .btn:hover {
+  background-color: #8b5cf6;
+  color: #ffffff;
+}
+
+/* ---- Tekstas, išvedamas po forma ---- */
+#form-result {
+  color: #8b5cf6 !important;      /* violetinis tekstas */
+  font-size: 1.05rem;
+  font-weight: 500;
+  opacity: 1 !important;          /* ne permatomas */
+}
+
+#form-result p {
+  margin: 4px 0;
+}
