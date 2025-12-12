@@ -5,1063 +5,1011 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <!-- d) puslapio pavadinimas naršyklės skirtuke -->
   <title>Mano CV</title>
-
-  <!-- c) trumpaprasis aprašymas -->
   <meta name="description" content="Mantas Krikščiūnas CV puslapis.">
-
-  <!-- b) autoriaus vardas ir pavardė -->
   <meta name="author" content="Mantas Krikščiūnas">
-
   <meta name="keywords" content="">
 
-  <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
   <link href="assets/css/custom.css" rel="stylesheet">
 </head>
 
 <body class="index-page">
+
 <div id="preloader" class="preloader">
   <div class="preloader-spinner"></div>
   <p>Kraunasi...</p>
 </div>
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center">
-        <!-- <img src="assets/img/logo.webp" alt=""> -->
+<header id="header" class="header d-flex align-items-center fixed-top">
+  <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+
+    <a href="index.html" class="logo d-flex align-items-center"></a>
+
+    <nav id="navmenu" class="navmenu">
+
+      <div class="profile-img">
+        <img src="assets/img/profile/profile-square-1.webp" alt="Profilio nuotrauka" class="img-fluid rounded-circle">
+      </div>
+
+      <a href="index.html" class="logo d-flex align-items-center justify-content-center active">
+        <h1 class="sitename">Alex Smith</h1>
       </a>
 
-      <nav id="navmenu" class="navmenu">
+      <div class="social-links text-center">
+        <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      </div>
 
-        <div class="profile-img">
-          <img src="assets/img/profile/profile-square-1.webp" alt="Profilio nuotrauka" class="img-fluid rounded-circle">
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#services">Services</a></li>
+        <li class="dropdown">
+          <a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <ul>
+            <li><a href="#">Dropdown 1</a></li>
+            <li class="dropdown">
+              <a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="#">Deep Dropdown 1</a></li>
+                <li><a href="#">Deep Dropdown 2</a></li>
+                <li><a href="#">Deep Dropdown 3</a></li>
+                <li><a href="#">Deep Dropdown 4</a></li>
+                <li><a href="#">Deep Dropdown 5</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Dropdown 2</a></li>
+            <li><a href="#">Dropdown 3</a></li>
+            <li><a href="#">Dropdown 4</a></li>
+          </ul>
+        </li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+    </nav>
+
+  </div>
+</header>
+
+<main class="main">
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero section">
+    <div class="container">
+      <div class="row g-0 align-items-center">
+
+        <div class="col-lg-6 hero-content" data-aos="fade-right" data-aos-delay="100">
+          <div class="content-wrapper">
+            <h1 class="hero-title">Serviso inžinierius</h1>
+            <p class="lead">
+              Dirbu su dažnio keitikliais ir elektriniais varikliais – nuo jų parinkimo ir programavimo
+              iki paleidimo bei gedimų šalinimo. Domiuosi pramoninės automatikos sprendimais, todėl kasdien
+              tobulinuosi dirbdamas su valdymo spintomis, apsaugos ir stebėsenos sistemomis. Man svarbiausia –
+              patikimai veikianti įranga, aiškus bendravimas su klientu ir tvarkingai atliktas darbas, kuriuo
+              galima drąsiai pasididžiuoti.
+            </p>
+
+            <div class="hero-stats" data-aos="fade-up" data-aos-delay="200">
+              <div class="stat-item">
+                <span class="purecounter" data-purecounter-start="0" data-purecounter-end="480" data-purecounter-duration="2">0</span>
+                <span class="stat-label">Projektų atliktų</span>
+              </div>
+              <div class="stat-item">
+                <span class="purecounter" data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="2">0</span>
+                <span class="stat-label">Metų patirtis</span>
+              </div>
+              <div class="stat-item">
+                <span class="purecounter" data-purecounter-start="0" data-purecounter-end="50" data-purecounter-duration="2">0</span>
+                <span class="stat-label">Patenkintų klientų</span>
+              </div>
+            </div>
+
+            <div class="hero-actions" data-aos="fade-up" data-aos-delay="300">
+              <a href="#portfolio" class="btn btn-primary">Pažiūrėti mano darbus</a>
+              <a href="#contact" class="btn btn-outline">Susikontaktuoti</a>
+            </div>
+
+            <div class="social-links" data-aos="fade-up" data-aos-delay="400">
+              <a href="#"><i class="bi bi-twitter"></i></a>
+              <a href="#"><i class="bi bi-linkedin"></i></a>
+              <a href="#"><i class="bi bi-github"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+            </div>
+          </div>
         </div>
 
-        <a href="index.html" class="logo d-flex align-items-center justify-content-center active">
-          <h1 class="sitename">Alex Smith</h1>
-        </a>
-
-        <div class="social-links text-center">
-          <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-          <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
-          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <div class="col-lg-6 hero-image" data-aos="fade-left" data-aos-delay="200">
+          <div class="image-container">
+            <div class="floating-elements">
+              <div class="floating-card card-1" data-aos="zoom-in" data-aos-delay="300">
+                <i class="bi bi-palette"></i>
+                <span>Varikliai</span>
+              </div>
+              <div class="floating-card card-2" data-aos="zoom-in" data-aos-delay="400">
+                <i class="bi bi-code-slash"></i>
+                <span>Pavaros</span>
+              </div>
+              <div class="floating-card card-3" data-aos="zoom-in" data-aos-delay="500">
+                <i class="bi bi-lightning"></i>
+                <span>Smart sensoriai</span>
+              </div>
+            </div>
+            <img src="assets/img/4.png" alt="Manto Krikščiūno nuotrauka" class="img-fluid hero-main-image">
+            <div class="image-overlay"></div>
+          </div>
         </div>
 
-        <ul>
-          <li><a href="#hero">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#resume">Resume</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#services">Services</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
-
+      </div>
     </div>
-  </header>
+  </section><!-- /Hero Section -->
 
-  <main class="main">
+  <!-- About Section -->
+  <section id="about" class="about section">
+    <div class="container section-title">
+      <h2>Apie</h2>
+      <p>
+        Esu Mantas Krikščiūnas, man labiausiai patinka viskas, kas susiję su technika ir ypač su automobiliais.
+        Nuo mažens daug laiko praleidžiu garaže – domiuosi automobilių sandara, ieškau gedimų ir pats juos tvarkau.
+        Labiausiai traukia „Audi“ markės automobiliai: seku naujienas, žiūriu apžvalgas, skaitau forumus ir
+        stengiuosi vis geriau suprasti jų techninius sprendimus.
+        <br><br>
+        Be automobilių, labai domina elektrotechnika ir įvairūs elektronikos prietaisai. Man patinka junginėti,
+        lituoti ir konstruoti paprastas schemas, išbandyti, kaip veikia skirtingi komponentai bei kaip juos galima
+        pritaikyti praktiškai. Šiuo metu dirbu ABB kaip praktikantas – čia turiu galimybę arčiau susipažinti su
+        pramoniniais įrenginiais, automatizavimu ir realiais inžineriniais sprendimais. Ši patirtis padeda man
+        gilinti žinias ir dar labiau motyvuoja sieti ateitį su elektrotechnika ir elektronika.
+      </p>
+    </div>
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero section">
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="row align-items-center">
+        <div class="col-lg-5" data-aos="fade-right" data-aos-delay="200">
+          <div class="profile-image-wrapper">
+            <div class="profile-image">
+              <img src="assets/img/4.png" alt="Manto Krikščiūno nuotrauka" class="img-fluid">
+            </div>
+            <div class="signature-section">
+              <p class="quote">Aš prisidedu prie to kas varo pasaulį</p>
+            </div>
+          </div>
+        </div>
 
-      <div class="container">
-        <div class="row g-0 align-items-center">
+        <div class="col-lg-7" data-aos="fade-left" data-aos-delay="300">
+          <div class="about-content">
+            <div class="intro">
+              <h2>Labas, aš Mantas – inžinierius</h2>
+              <p>Nereikia daug pasakoti apie mane, nes mano darbai kalba patys už save. Esu kūrybingas, atsidavęs ir visada siekiu tobulumo kiekviename projekte.</p>
+            </div>
 
-          <div class="col-lg-6 hero-content" data-aos="fade-right" data-aos-delay="100">
-            <div class="content-wrapper">
-              <h1 class="hero-title">Serviso inžinierius</h1>
-              <p class="lead">
-                Dirbu su dažnio keitikliais ir elektriniais varikliais – nuo jų parinkimo ir programavimo
-                iki paleidimo bei gedimų šalinimo. Domiuosi pramoninės automatikos sprendimais, todėl kasdien
-                tobulinuosi dirbdamas su valdymo spintomis, apsaugos ir stebėsenos sistemomis. Man svarbiausia –
-                patikimai veikianti įranga, aiškus bendravimas su klientu ir tvarkingai atliktas darbas, kuriuo
-                galima drąsiai pasididžiuoti.
-              </p>
-
-              <div class="hero-stats" data-aos="fade-up" data-aos-delay="200">
-                <div class="stat-item">
-                  <span class="purecounter" data-purecounter-start="0" data-purecounter-end="480" data-purecounter-duration="2">0</span>
-                  <span class="stat-label">Projektų atliktų</span>
+            <div class="skills-grid">
+              <div class="skill-item" data-aos="zoom-in" data-aos-delay="400">
+                <div class="skill-icon">
+                  <i class="bi bi-palette"></i>
                 </div>
-                <div class="stat-item">
-                  <span class="purecounter" data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="2">0</span>
+                <h4>Varikliai</h4>
+                <p>Varikliai yra 50% visos energijos gamybos.</p>
+              </div>
+              <div class="skill-item" data-aos="zoom-in" data-aos-delay="450">
+                <div class="skill-icon">
+                  <i class="bi bi-code-slash"></i>
+                </div>
+                <h4>Pavaros</h4>
+                <p>Pavaros užtikrina efektyvumą.</p>
+              </div>
+              <div class="skill-item" data-aos="zoom-in" data-aos-delay="500">
+                <div class="skill-icon">
+                  <i class="bi bi-camera"></i>
+                </div>
+                <h4>Smart sensoriai</h4>
+                <p>Parodo problemas dar joms neiššokus.</p>
+              </div>
+            </div>
+
+            <div class="journey-timeline" data-aos="fade-up" data-aos-delay="300">
+              <div class="timeline-item">
+                <div class="year">2024</div>
+                <div class="description">Pradėjau studijuoti VGTU.</div>
+              </div>
+              <div class="timeline-item">
+                <div class="year">2025</div>
+                <div class="description">Pradėjau dirbti ABB.</div>
+              </div>
+              <div class="timeline-item">
+                <div class="year">2025</div>
+                <div class="description">Sukūriau šį CV puslapį.</div>
+              </div>
+            </div>
+
+            <div class="cta-section" data-aos="fade-up" data-aos-delay="400">
+              <div class="fun-fact">
+                <span class="emoji">☕</span>
+                <span class="text">Energetiniais gėrimais pripildytas studentas iš Panevėžio</span>
+              </div>
+              <div class="action-buttons">
+                <a href="#portfolio" class="btn btn-primary">Peržiūrėti mano darbus</a>
+                <a href="#" class="btn btn-outline">Atsisiųsti mano CV</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section><!-- /About Section -->
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills section">
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="skills-grid">
+            <div class="row g-4">
+              <div class="col-md-6" data-aos="flip-left" data-aos-delay="200">
+                <div class="skill-card">
+                  <div class="skill-header">
+                    <i class="bi bi-code-slash"></i>
+                    <h3>Programavimo žinios</h3>
+                  </div>
+                  <div class="skills-animation">
+                    <div class="skill-item">
+                      <div class="skill-info">
+                        <span class="skill-name">HTML/CSS</span>
+                        <span class="skill-percentage">95%</span>
+                      </div>
+                      <div class="skill-bar progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </div>
+
+                    <div class="skill-item">
+                      <div class="skill-info">
+                        <span class="skill-name">JavaScript</span>
+                        <span class="skill-percentage">88%</span>
+                      </div>
+                      <div class="skill-bar progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </div>
+
+                    <div class="skill-item">
+                      <div class="skill-info">
+                        <span class="skill-name">Vue.js</span>
+                        <span class="skill-percentage">82%</span>
+                      </div>
+                      <div class="skill-bar progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6" data-aos="flip-left" data-aos-delay="300">
+                <div class="skill-card">
+                  <div class="skill-header">
+                    <i class="bi bi-server"></i>
+                    <h3>Inžinerinės žinios</h3>
+                  </div>
+                  <div class="skills-animation">
+                    <div class="skill-item">
+                      <div class="skill-info">
+                        <span class="skill-name">Varikliai</span>
+                        <span class="skill-percentage">78%</span>
+                      </div>
+                      <div class="skill-bar progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </div>
+
+                    <div class="skill-item">
+                      <div class="skill-info">
+                        <span class="skill-name">Dažnio keitikliai</span>
+                        <span class="skill-percentage">75%</span>
+                      </div>
+                      <div class="skill-bar progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </div>
+
+                    <div class="skill-item">
+                      <div class="skill-info">
+                        <span class="skill-name">Smart sensoriai</span>
+                        <span class="skill-percentage">72%</span>
+                      </div>
+                      <div class="skill-bar progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6" data-aos="flip-left" data-aos-delay="400">
+                <div class="skill-card">
+                  <div class="skill-header">
+                    <i class="bi bi-palette"></i>
+                    <h3>Dizainas &amp; įrankiai</h3>
+                  </div>
+                  <div class="skills-animation">
+                    <div class="skill-item">
+                      <div class="skill-info">
+                        <span class="skill-name">Mechanikos įrankiai</span>
+                        <span class="skill-percentage">85%</span>
+                      </div>
+                      <div class="skill-bar progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </div>
+
+                    <div class="skill-item">
+                      <div class="skill-info">
+                        <span class="skill-name">Excel</span>
+                        <span class="skill-percentage">70%</span>
+                      </div>
+                      <div class="skill-bar progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </div>
+
+                    <div class="skill-item">
+                      <div class="skill-info">
+                        <span class="skill-name">Powertrain</span>
+                        <span class="skill-percentage">68%</span>
+                      </div>
+                      <div class="skill-bar progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="68" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6" data-aos="flip-left" data-aos-delay="500">
+                <div class="skill-card">
+                  <div class="skill-header">
+                    <i class="bi bi-cloud"></i>
+                    <h3>Pavaros &amp; naudojimas</h3>
+                  </div>
+                  <div class="skills-animation">
+                    <div class="skill-item">
+                      <div class="skill-info">
+                        <span class="skill-name">Drive composer</span>
+                        <span class="skill-percentage">76%</span>
+                      </div>
+                      <div class="skill-bar progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </div>
+
+                    <div class="skill-item">
+                      <div class="skill-info">
+                        <span class="skill-name">Fizinis keitiklis</span>
+                        <span class="skill-percentage">73%</span>
+                      </div>
+                      <div class="skill-bar progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="73" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </div>
+
+                    <div class="skill-item">
+                      <div class="skill-info">
+                        <span class="skill-name">Mechaninės žinios</span>
+                        <span class="skill-percentage">90%</span>
+                      </div>
+                      <div class="skill-bar progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="skills-summary" data-aos="fade-left" data-aos-delay="200">
+            <h3>Profesionali ekspertizė</h3>
+            <p>Nereikia galvoti, reikia daryti.</p>
+
+            <div class="summary-stats">
+              <div class="stat-item" data-aos="zoom-in" data-aos-delay="300">
+                <div class="stat-circle">
+                  <i class="bi bi-trophy"></i>
+                </div>
+                <div class="stat-info">
+                  <span class="stat-number">2+</span>
                   <span class="stat-label">Metų patirtis</span>
                 </div>
-                <div class="stat-item">
-                  <span class="purecounter" data-purecounter-start="0" data-purecounter-end="50" data-purecounter-duration="2">0</span>
+              </div>
+
+              <div class="stat-item" data-aos="zoom-in" data-aos-delay="400">
+                <div class="stat-circle">
+                  <i class="bi bi-diagram-3"></i>
+                </div>
+                <div class="stat-info">
+                  <span class="stat-number">90+</span>
+                  <span class="stat-label">Projektų pabaigtų</span>
+                </div>
+              </div>
+
+              <div class="stat-item" data-aos="zoom-in" data-aos-delay="500">
+                <div class="stat-circle">
+                  <i class="bi bi-people"></i>
+                </div>
+                <div class="stat-info">
+                  <span class="stat-number">40+</span>
                   <span class="stat-label">Patenkintų klientų</span>
                 </div>
               </div>
-
-              <div class="hero-actions" data-aos="fade-up" data-aos-delay="300">
-                <a href="#portfolio" class="btn btn-primary">Pažiūrėti mano darbus</a>
-                <a href="#contact" class="btn btn-outline">Susikontaktuoti</a>
-              </div>
-
-              <div class="social-links" data-aos="fade-up" data-aos-delay="400">
-                <a href="#"><i class="bi bi-twitter"></i></a>
-                <a href="#"><i class="bi bi-linkedin"></i></a>
-                <a href="#"><i class="bi bi-github"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6 hero-image" data-aos="fade-left" data-aos-delay="200">
-            <div class="image-container">
-              <div class="floating-elements">
-                <div class="floating-card card-1" data-aos="zoom-in" data-aos-delay="300">
-                  <i class="bi bi-palette"></i>
-                  <span>Varikliai</span>
-                </div>
-                <div class="floating-card card-2" data-aos="zoom-in" data-aos-delay="400">
-                  <i class="bi bi-code-slash"></i>
-                  <span>Pavaros</span>
-                </div>
-                <div class="floating-card card-3" data-aos="zoom-in" data-aos-delay="500">
-                  <i class="bi bi-lightning"></i>
-                  <span>Smart sensoriai</span>
-                </div>
-              </div>
-              <img src="assets/img/4.png" alt="Manto Krikščiūno nuotrauka" class="img-fluid hero-main-image">
-              <div class="image-overlay"></div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-    </section><!-- /Hero Section -->
-
-    <!-- About Section -->
-    <section id="about" class="about section">
-
-      <div class="container section-title">
-        <h2>Apie</h2>
-        <p>
-          Esu Mantas Krikščiūnas, man labiausiai patinka viskas, kas susiję su technika ir ypač su automobiliais.
-          Nuo mažens daug laiko praleidžiu garaže – domiuosi automobilių sandara, ieškau gedimų ir pats juos tvarkau.
-          Labiausiai traukia „Audi“ markės automobiliai: seku naujienas, žiūriu apžvalgas, skaitau forumus ir
-          stengiuosi vis geriau suprasti jų techninius sprendimus.
-          <br><br>
-          Be automobilių, labai domina elektrotechnika ir įvairūs elektronikos prietaisai. Man patinka junginėti,
-          lituoti ir konstruoti paprastas schemas, išbandyti, kaip veikia skirtingi komponentai bei kaip juos galima
-          pritaikyti praktiškai. Šiuo metu dirbu ABB kaip praktikantas – čia turiu galimybę arčiau susipažinti su
-          pramoniniais įrenginiais, automatizavimu ir realiais inžineriniais sprendimais. Ši patirtis padeda man
-          gilinti žinias ir dar labiau motyvuoja sieti ateitį su elektrotechnika ir elektronika.
-        </p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row align-items-center">
-
-          <div class="col-lg-5" data-aos="fade-right" data-aos-delay="200">
-            <div class="profile-image-wrapper">
-              <div class="profile-image">
-                <img src="assets/img/4.png" alt="Manto Krikščiūno nuotrauka" class="img-fluid">
-              </div>
-              <div class="signature-section">
-                <p class="quote">Aš prisidedu prie to kas varo pasaulį</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-7" data-aos="fade-left" data-aos-delay="300">
-            <div class="about-content">
-              <div class="intro">
-                <h2>Labas, aš Mantas – inžinierius</h2>
-                <p>Nereikia daug pasakoti apie mane, nes mano darbai kalba patys už save. Esu kūrybingas, atsidavęs ir visada siekiu tobulumo kiekviename projekte.</p>
-              </div>
-
-              <div class="skills-grid">
-                <div class="skill-item" data-aos="zoom-in" data-aos-delay="400">
-                  <div class="skill-icon">
-                    <i class="bi bi-palette"></i>
-                  </div>
-                  <h4>Varikliai</h4>
-                  <p>Varikliai yra 50% visos energijos gamybos.</p>
-                </div>
-                <div class="skill-item" data-aos="zoom-in" data-aos-delay="450">
-                  <div class="skill-icon">
-                    <i class="bi bi-code-slash"></i>
-                  </div>
-                  <h4>Pavaros</h4>
-                  <p>Pavaros užtikrina efektyvumą.</p>
-                </div>
-                <div class="skill-item" data-aos="zoom-in" data-aos-delay="500">
-                  <div class="skill-icon">
-                    <i class="bi bi-camera"></i>
-                  </div>
-                  <h4>Smart sensoriai</h4>
-                  <p>Parodo problemas dar joms neiššokus.</p>
-                </div>
-              </div>
-
-              <div class="journey-timeline" data-aos="fade-up" data-aos-delay="300">
-                <div class="timeline-item">
-                  <div class="year">2024</div>
-                  <div class="description">Pradėjau studijuoti VGTU.</div>
-                </div>
-                <div class="timeline-item">
-                  <div class="year">2025</div>
-                  <div class="description">Pradėjau dirbti ABB.</div>
-                </div>
-                <div class="timeline-item">
-                  <div class="year">2025</div>
-                  <div class="description">Sukūriau šį CV puslapį.</div>
-                </div>
-              </div>
-
-              <div class="cta-section" data-aos="fade-up" data-aos-delay="400">
-                <div class="fun-fact">
-                  <span class="emoji">☕</span>
-                  <span class="text">Energetiniais gėrimais pripildytas studentas iš Panevėžio</span>
-                </div>
-                <div class="action-buttons">
-                  <a href="#portfolio" class="btn btn-primary">Peržiūrėti mano darbus</a>
-                  <a href="#" class="btn btn-outline">Atsisiųsti mano CV</a>
-                </div>
-              </div>
-
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-    </section><!-- /About Section -->
-
-    <!-- Skills Section -->
-    <section id="skills" class="skills section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row">
-          <div class="col-lg-8">
-            <div class="skills-grid">
-              <div class="row g-4">
-                <div class="col-md-6" data-aos="flip-left" data-aos-delay="200">
-                  <div class="skill-card">
-                    <div class="skill-header">
-                      <i class="bi bi-code-slash"></i>
-                      <h3>Programavimo žinios</h3>
-                    </div>
-                    <div class="skills-animation">
-                      <div class="skill-item">
-                        <div class="skill-info">
-                          <span class="skill-name">HTML/CSS</span>
-                          <span class="skill-percentage">95%</span>
-                        </div>
-                        <div class="skill-bar progress">
-                          <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                      </div>
-
-                      <div class="skill-item">
-                        <div class="skill-info">
-                          <span class="skill-name">JavaScript</span>
-                          <span class="skill-percentage">88%</span>
-                        </div>
-                        <div class="skill-bar progress">
-                          <div class="progress-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                      </div>
-
-                      <div class="skill-item">
-                        <div class="skill-info">
-                          <span class="skill-name">Vue.js</span>
-                          <span class="skill-percentage">82%</span>
-                        </div>
-                        <div class="skill-bar progress">
-                          <div class="progress-bar" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div><!-- End Frontend Card -->
-                </div>
-
-                <div class="col-md-6" data-aos="flip-left" data-aos-delay="300">
-                  <div class="skill-card">
-                    <div class="skill-header">
-                      <i class="bi bi-server"></i>
-                      <h3>Inžinerinės žinios</h3>
-                    </div>
-                    <div class="skills-animation">
-                      <div class="skill-item">
-                        <div class="skill-info">
-                          <span class="skill-name">Varikliai</span>
-                          <span class="skill-percentage">78%</span>
-                        </div>
-                        <div class="skill-bar progress">
-                          <div class="progress-bar" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                      </div>
-
-                      <div class="skill-item">
-                        <div class="skill-info">
-                          <span class="skill-name">Dažnio keitikliai</span>
-                          <span class="skill-percentage">75%</span>
-                        </div>
-                        <div class="skill-bar progress">
-                          <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                      </div>
-
-                      <div class="skill-item">
-                        <div class="skill-info">
-                          <span class="skill-name">Smart sensoriai</span>
-                          <span class="skill-percentage">72%</span>
-                        </div>
-                        <div class="skill-bar progress">
-                          <div class="progress-bar" role="progressbar" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div><!-- End Backend Card -->
-                </div>
-
-                <div class="col-md-6" data-aos="flip-left" data-aos-delay="400">
-                  <div class="skill-card">
-                    <div class="skill-header">
-                      <i class="bi bi-palette"></i>
-                      <h3>Dizainas &amp; įrankiai</h3>
-                    </div>
-                    <div class="skills-animation">
-                      <div class="skill-item">
-                        <div class="skill-info">
-                          <span class="skill-name">Mechanikos įrankiai</span>
-                          <span class="skill-percentage">85%</span>
-                        </div>
-                        <div class="skill-bar progress">
-                          <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                      </div>
-
-                      <div class="skill-item">
-                        <div class="skill-info">
-                          <span class="skill-name">Excel</span>
-                          <span class="skill-percentage">70%</span>
-                        </div>
-                        <div class="skill-bar progress">
-                          <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                      </div>
-
-                      <div class="skill-item">
-                        <div class="skill-info">
-                          <span class="skill-name">Powertrain</span>
-                          <span class="skill-percentage">68%</span>
-                        </div>
-                        <div class="skill-bar progress">
-                          <div class="progress-bar" role="progressbar" aria-valuenow="68" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div><!-- End Design Card -->
-                </div>
-
-                <div class="col-md-6" data-aos="flip-left" data-aos-delay="500">
-                  <div class="skill-card">
-                    <div class="skill-header">
-                      <i class="bi bi-cloud"></i>
-                      <h3>Pavaros &amp; naudojimas</h3>
-                    </div>
-                    <div class="skills-animation">
-                      <div class="skill-item">
-                        <div class="skill-info">
-                          <span class="skill-name">Drive composer</span>
-                          <span class="skill-percentage">76%</span>
-                        </div>
-                        <div class="skill-bar progress">
-                          <div class="progress-bar" role="progressbar" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                      </div>
-
-                      <div class="skill-item">
-                        <div class="skill-info">
-                          <span class="skill-name">Fizinis keitiklis</span>
-                          <span class="skill-percentage">73%</span>
-                        </div>
-                        <div class="skill-bar progress">
-                          <div class="progress-bar" role="progressbar" aria-valuenow="73" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                      </div>
-
-                      <div class="skill-item">
-                        <div class="skill-info">
-                          <span class="skill-name">Mechaninės žinios</span>
-                          <span class="skill-percentage">90%</span>
-                        </div>
-                        <div class="skill-bar progress">
-                          <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div><!-- End DevOps Card -->
-                </div>
-              </div>
-            </div><!-- End Skills Grid -->
-          </div>
-
-          <div class="col-lg-4">
-            <div class="skills-summary" data-aos="fade-left" data-aos-delay="200">
-              <h3>Profesionali ekspertizė</h3>
-              <p>Nereikia galvoti, reikia daryti.</p>
-
-              <div class="summary-stats">
-                <div class="stat-item" data-aos="zoom-in" data-aos-delay="300">
-                  <div class="stat-circle">
-                    <i class="bi bi-trophy"></i>
-                  </div>
-                  <div class="stat-info">
-                    <span class="stat-number">2+</span>
-                    <span class="stat-label">Metų patirtis</span>
-                  </div>
-                </div>
-
-                <div class="stat-item" data-aos="zoom-in" data-aos-delay="400">
-                  <div class="stat-circle">
-                    <i class="bi bi-diagram-3"></i>
-                  </div>
-                  <div class="stat-info">
-                    <span class="stat-number">90+</span>
-                    <span class="stat-label">Projektų pabaigtų</span>
-                  </div>
-                </div>
-
-                <div class="stat-item" data-aos="zoom-in" data-aos-delay="500">
-                  <div class="stat-circle">
-                    <i class="bi bi-people"></i>
-                  </div>
-                  <div class="stat-info">
-                    <span class="stat-number">40+</span>
-                    <span class="stat-label">Patenkintų klientų</span>
-                  </div>
-                </div>
-              </div>
-
-              <div class="skills-badges" data-aos="fade-up" data-aos-delay="600">
-                <h4>Sertifikatai</h4>
-                <div class="badge-list">
-                  <div class="skill-badge">Drive composer ekspertas</div>
-                  <div class="skill-badge">Drive install base ekspertas</div>
-                  <div class="skill-badge">Digital powertrain profesionalas</div>
-                </div>
-              </div>
-            </div><!-- End Skills Summary -->
-          </div>
-        </div>
-
-      </div>
-
-    </section><!-- /Skills Section -->
-
-    <!-- Resume Section -->
-    <section id="resume" class="resume section">
-
-      <div class="container section-title">
-        <h2>CV</h2>
-        <p>Išsilavinimas ir pagrindinė darbo patirtis.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="row">
-          <!-- Išsilavinimas -->
-          <div class="col-lg-6">
-            <h3>Išsilavinimas</h3>
-            <div class="resume-item">
-              <h4>Elektros energetikos inžinerijos bakalauro studijos</h4>
-              <h5>VILNIUS TECH (VGTU)</h5>
-              <p>Šiuo metu studijuoju elektros energetikos inžinerijos bakalauro programoje.</p>
-            </div>
-          </div>
-
-          <!-- Darbo patirtis -->
-          <div class="col-lg-6">
-            <h3>Darbo patirtis</h3>
-
-            <div class="resume-item">
-              <h4>Elektrikas / montuotojas</h4>
-              <h5>Harju Elekter</h5>
-              <p>Apie 1 metų patirtis elektros įrenginių ir instaliacijos darbuose.</p>
             </div>
 
-            <div class="resume-item">
-              <h4>Praktikantas</h4>
-              <h5>Automatikos sistemos</h5>
-              <p>3 mėn. praktika dirbant su automatikos ir valdymo sistemomis.</p>
-            </div>
-
-            <div class="resume-item">
-              <h4>Darbuotojas</h4>
-              <h5>Lidl</h5>
-              <p>1 mėn. darbas logistikoje / parduotuvėje.</p>
-            </div>
-
-            <div class="resume-item">
-              <h4>Praktikantas</h4>
-              <h5>ABB</h5>
-              <p>6 mėn. praktika, susijusi su elektrotechnika ir pramoniniais įrenginiais.</p>
+            <div class="skills-badges" data-aos="fade-up" data-aos-delay="600">
+              <h4>Sertifikatai</h4>
+              <div class="badge-list">
+                <div class="skill-badge">Drive composer ekspertas</div>
+                <div class="skill-badge">Drive install base ekspertas</div>
+                <div class="skill-badge">Digital powertrain profesionalas</div>
+              </div>
             </div>
 
           </div>
         </div>
+
       </div>
+    </div>
+  </section><!-- /Skills Section -->
 
-    </section><!-- /Resume Section -->
-<div class="container mt-4" data-aos="fade-up" data-aos-delay="150">
-
-  <div class="row">
-    <!-- Nenumeruotas sąrašas su įdėtu sąrašu -->
-    <div class="col-lg-6 mb-4">
-      <h3 class="mb-3">Pagrindinės kompetencijos</h3>
-      <ul class="custom-bullet-list">
-        <li>Varikliai ir pavaros
-          <ul>
-            <li>Asinchroniniai varikliai</li>
-            <li>Servo pavaros</li>
-          </ul>
-        </li>
-        <li>Dažnio keitiklių parinkimas ir paleidimas</li>
-        <li>Diagnostika ir profilaktinė priežiūra</li>
-      </ul>
+  <!-- Resume Section -->
+  <section id="resume" class="resume section">
+    <div class="container section-title">
+      <h2>CV</h2>
+      <p>Išsilavinimas ir pagrindinė darbo patirtis.</p>
     </div>
 
-    <!-- Numeruotas sąrašas su CSS counter -->
-    <div class="col-lg-6 mb-4">
-      <h3 class="mb-3">Tipinis gedimo šalinimo planas</h3>
-      <ol class="steps-counter-list">
-        <li>Surinkti informaciją apie įrenginį ir gedimą.</li>
-        <li>Atlikti vizualinę apžiūrą ir reikiamus matavimus.</li>
-        <li>Parinkti sprendimą, pakeisti detales ir atstatyti darbą.</li>
-      </ol>
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="row">
+        <div class="col-lg-6">
+          <h3>Išsilavinimas</h3>
+          <div class="resume-item">
+            <h4>Elektros energetikos inžinerijos bakalauro studijos</h4>
+            <h5>VILNIUS TECH (VGTU)</h5>
+            <p>Šiuo metu studijuoju elektros energetikos inžinerijos bakalauro programoje.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <h3>Darbo patirtis</h3>
+
+          <div class="resume-item">
+            <h4>Elektrikas / montuotojas</h4>
+            <h5>Harju Elekter</h5>
+            <p>Apie 1 metų patirtis elektros įrenginių ir instaliacijos darbuose.</p>
+          </div>
+
+          <div class="resume-item">
+            <h4>Praktikantas</h4>
+            <h5>Automatikos sistemos</h5>
+            <p>3 mėn. praktika dirbant su automatikos ir valdymo sistemomis.</p>
+          </div>
+
+          <div class="resume-item">
+            <h4>Darbuotojas</h4>
+            <h5>Lidl</h5>
+            <p>1 mėn. darbas logistikoje / parduotuvėje.</p>
+          </div>
+
+          <div class="resume-item">
+            <h4>Praktikantas</h4>
+            <h5>ABB</h5>
+            <p>6 mėn. praktika, susijusi su elektrotechnika ir pramoniniais įrenginiais.</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section><!-- /Resume Section -->
+
+  <div class="container mt-4" data-aos="fade-up" data-aos-delay="150">
+    <div class="row">
+      <div class="col-lg-6 mb-4">
+        <h3 class="mb-3">Pagrindinės kompetencijos</h3>
+        <ul class="custom-bullet-list">
+          <li>Varikliai ir pavaros
+            <ul>
+              <li>Asinchroniniai varikliai</li>
+              <li>Servo pavaros</li>
+            </ul>
+          </li>
+          <li>Dažnio keitiklių parinkimas ir paleidimas</li>
+          <li>Diagnostika ir profilaktinė priežiūra</li>
+        </ul>
+      </div>
+
+      <div class="col-lg-6 mb-4">
+        <h3 class="mb-3">Tipinis gedimo šalinimo planas</h3>
+        <ol class="steps-counter-list">
+          <li>Surinkti informaciją apie įrenginį ir gedimą.</li>
+          <li>Atlikti vizualinę apžiūrą ir reikiamus matavimus.</li>
+          <li>Parinkti sprendimą, pakeisti detales ir atstatyti darbą.</li>
+        </ol>
+      </div>
     </div>
   </div>
 
-</div>
-
-        <!-- Services Section -->
- <section id="services" class="services section services-gradient">
-
-
-      <div class="container section-title">
-        <h2>Servisai</h2>
-        <p>Inžinierius, pardavimo specialistas, smart sensorių supportas.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <!-- Kortelės -->
-        <div class="row g-4">
-
-          <!-- Card 1 -->
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item">
-              <div class="icon">
-                <i class="bi bi-stack"></i>
-              </div>
-              <h3>Sprendimai</h3>
-              <p>Aš pasiūlau geriausius sprendimus klientų įrangai ir procesams.</p>
-              <div class="card-links">
-                <a href="#" class="link-item">
-                  Skaityti daugiau
-                  <i class="bi bi-arrow-right"></i>
-                </a>
-              </div>
-            </div>
-          </div><!-- End Service Item -->
-
-          <!-- Card 2 -->
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item">
-              <div class="icon">
-                <i class="bi bi-speedometer2"></i>
-              </div>
-              <h3>Dažnio keitikliai</h3>
-              <p>Parinkimas, paleidimas ir derinimas pagal variklio ir proceso reikalavimus.</p>
-              <div class="card-links">
-                <a href="#" class="link-item">
-                  Skaityti daugiau
-                  <i class="bi bi-arrow-right"></i>
-                </a>
-              </div>
-            </div>
-          </div><!-- End Service Item -->
-
-          <!-- Card 3 -->
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item">
-              <div class="icon">
-                <i class="bi bi-broadcast"></i>
-              </div>
-              <h3>Smart sensoriai</h3>
-              <p>Stebėsena, diagnostika ir duomenų analizė, kad problemos išryškėtų anksčiau.</p>
-              <div class="card-links">
-                <a href="#" class="link-item">
-                  Skaityti daugiau
-                  <i class="bi bi-arrow-right"></i>
-                </a>
-              </div>
-            </div>
-          </div><!-- End Service Item -->
-
-        </div><!-- End row g-4 su kortelėmis -->
-
-        <!-- Paslaugų lentelė -->
-        <div class="mt-4" data-aos="fade-up" data-aos-delay="150">
-          <h3 class="text-center mb-3">Paslaugų kainoraštis</h3>
-
-          <div class="table-responsive">
-            <table class="services-table">
-              <thead>
-                <tr>
-                  <th>Paslauga</th>
-                  <th>Aprašymas</th>
-                  <th>Kategorija</th>
-                  <th>Kaina (Eur)</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Dažnio keitiklio parinkimas</td>
-                  <td>Keitiklio parinkimas pagal variklį ir apkrovą, schemų peržiūra.</td>
-                  <td>Projektavimas</td>
-                  <td>100</td>
-                </tr>
-                <tr>
-                  <td>Paleidimas ir derinimas</td>
-                  <td>Keitiklio parametrų suvedimas, bandomasis paleidimas, dokumentacija.</td>
-                  <td>Servisas</td>
-                  <td>150</td>
-                </tr>
-                <tr>
-                  <td>Variklio diagnostika</td>
-                  <td>Vibracijos ir izoliacijos patikra, būklės įvertinimas.</td>
-                  <td>Diagnostika</td>
-                  <td>80</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-
-        <!-- Media turinys -->
-        <div class="row mt-5">
-
-          <!-- Pexels video -->
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
-            <h3>Vaizdo įrašas (Pexels)</h3>
-            <video controls class="w-100">
-              <source src="assets/media/7534244-hd_1920_1080_25fps.mp4" type="video/mp4">
-              Jūsų naršyklė nepalaiko video žymės.
-            </video>
-          </div>
-
-          <!-- YouTube + audio -->
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="500">
-            <h3>YouTube vaizdo įrašas</h3>
-
-            <div class="ratio ratio-16x9">
-              <iframe
-                src="https://www.youtube.com/embed/BoUVIhtqjAw"
-                title="YouTube video"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen>
-              </iframe>
-            </div>
-
-            <h3 class="mt-4">Garso įrašas (Pixabay)</h3>
-            <audio controls>
-              <source src="assets/media/quartz-clock-ticking-one-minute-253102.mp3" type="audio/mpeg">
-              Jūsų naršyklė nepalaiko audio žymės.
-            </audio>
-          </div>
-
-        </div><!-- /Media row -->
-
-      </div><!-- /container -->
-
-    </section><!-- /Services Section -->
-
-
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
-
-      <div class="container section-title">
-        <h2>Portfolio</h2>
-        <p>Matlab laboratorinių darbų grafikai.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="200">
-            <li data-filter="*" class="filter-active">
-              <i class="bi bi-grid-3x3"></i> Visi projektai
-            </li>
-            <li data-filter=".filter-ui">
-              Varikliai
-            </li>
-            <li data-filter=".filter-development">
-              Dažnio keitikliai
-            </li>
-            <li data-filter=".filter-photography">
-              Smart sensoriai
-            </li>
-            <li data-filter=".filter-marketing">
-              Pardavimai
-            </li>
-          </ul>
-
-          <div class="row g-4 isotope-container" data-aos="fade-up" data-aos-delay="300">
-
-            <!-- Matlab grafikas 1 -->
-            <div class="col-xl-4 col-lg-4 col-md-6 portfolio-item isotope-item filter-ui">
-              <article class="portfolio-entry">
-                <figure class="entry-image">
-                  <img src="assets/img/1.png" class="img-fluid" alt="Matlab laboratorinis grafikas 1">
-                  <div class="entry-overlay">
-                    <div class="overlay-content">
-                      <div class="entry-meta">Matlab grafikas</div>
-                      <h3 class="entry-title">Laboratorinis darbas – grafikas 1</h3>
-                      <div class="entry-links">
-                        <a href="assets/img/1.png" class="glightbox" data-gallery="portfolio-gallery-matlab" data-glightbox="title: Matlab grafikas 1; description: Laboratorinis darbas.">
-                          <i class="bi bi-arrows-angle-expand"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </figure>
-              </article>
-            </div>
-
-            <!-- Matlab grafikas 2 -->
-            <div class="col-xl-4 col-lg-4 col-md-6 portfolio-item isotope-item filter-development">
-              <article class="portfolio-entry">
-                <figure class="entry-image">
-                  <img src="assets/img/2.png" class="img-fluid" alt="Matlab laboratorinis grafikas 2">
-                  <div class="entry-overlay">
-                    <div class="overlay-content">
-                      <div class="entry-meta">Matlab grafikas</div>
-                      <h3 class="entry-title">Laboratorinis darbas – grafikas 2</h3>
-                      <div class="entry-links">
-                        <a href="assets/img/2.png" class="glightbox" data-gallery="portfolio-gallery-matlab" data-glightbox="title: Matlab grafikas 2; description: Laboratorinis darbas.">
-                          <i class="bi bi-arrows-angle-expand"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </figure>
-              </article>
-            </div>
-
-            <!-- Matlab grafikas 3 -->
-            <div class="col-xl-4 col-lg-4 col-md-6 portfolio-item isotope-item filter-photography">
-              <article class="portfolio-entry">
-                <figure class="entry-image">
-                  <img src="assets/img/3.png" class="img-fluid" alt="Matlab laboratorinis grafikas 3">
-                  <div class="entry-overlay">
-                    <div class="overlay-content">
-                      <div class="entry-meta">Matlab grafikas</div>
-                      <h3 class="entry-title">Laboratorinis darbas – grafikas 3</h3>
-                      <div class="entry-links">
-                        <a href="assets/img/3.png" class="glightbox" data-gallery="portfolio-gallery-matlab" data-glightbox="title: Matlab grafikas 3; description: Laboratorinis darbas.">
-                          <i class="bi bi-arrows-angle-expand"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </figure>
-              </article>
-            </div>
-
-          </div><!-- End Portfolio Container -->
-
-        </div><!-- /isotope-layout -->
-
-      </div><!-- /container-fluid -->
-
-    </section><!-- /Portfolio Section -->
-
-    <!-- Faq Section -->
-    <section id="faq" class="faq section">
-
-      <div class="container section-title">
-        <h2>FAQ</h2>
-        <p>Dažnai klausiami klausimai</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row justify-content-center">
-
-          <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
-
-            <div class="faq-container">
-
-              <div class="faq-item faq-active">
-                <h3>Kodėl mokaisi?</h3>
-                <div class="faq-content">
-                  <p>Nes reikia.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item">
-                <h3>Kažką moki?</h3>
-                <div class="faq-content">
-                  <p>Aišku, kad ne.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item">
-                <h3>Ar planuoji eiti į magistratūrą?</h3>
-                <div class="faq-content">
-                  <p>Su atmintimi kaip auksinės žuvelės aš tik namo galiu eiti, ir tai į 5 bendrabutį.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item">
-                <h3>Patinka?</h3>
-                <div class="faq-content">
-                  <p>50/50.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item">
-                <h3>Kodėl patinka vištiena?</h3>
-                <div class="faq-content">
-                  <p>Nes skanu.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item">
-                <h3>Kaip yra?</h3>
-                <div class="faq-content">
-                  <p>Normaliai.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-            </div>
-
-          </div><!-- End Faq Column-->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Faq Section -->
-
-        <!-- Contact Section -->
-    <section id="contact" class="contact section light-background">
-
-      <div class="container section-title">
-        <h2>Kontaktai</h2>
-        <p>Jei labai reikia – susikontaktuokite.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="about-shapes" aria-hidden="true">
-          <span class="shape shape-circle"></span>
-          <span class="shape shape-square"></span>
-          <span class="shape shape-triangle"></span>
-        </div>
-
-        <div class="row g-4 g-lg-5">
-          <div class="col-lg-5">
-            <div class="info-box" data-aos="fade-up" data-aos-delay="200">
-              <h3>Kontaktinė informacija</h3>
-              <p>Užpildykite duomenis.</p>
-
-              <div class="info-item" data-aos="fade-up" data-aos-delay="300">
-                <div class="icon-box">
-                  <i class="bi bi-geo-alt"></i>
-                </div>
-                <div class="content">
-                  <h4>Aš</h4>
-                  <p>5 barakas</p>
-                  <p>Lietuva, Vilnius 555555</p>
-                </div>
-              </div>
-
-              <div class="info-item" data-aos="fade-up" data-aos-delay="400">
-                <div class="icon-box">
-                  <i class="bi bi-telephone"></i>
-                </div>
-                <div class="content">
-                  <h4>Telefono numeris</h4>
-                  <p>Gal ne.</p>
-                  <p>Nu nereikia.</p>
-                </div>
-              </div>
-
-              <div class="info-item" data-aos="fade-up" data-aos-delay="500">
-                <div class="icon-box">
-                  <i class="bi bi-envelope"></i>
-                </div>
-                <div class="content">
-                  <h4>Emailas</h4>
-                  <p>mantas@nepasiekiamas.com</p>
-                  <p>neturiu_laiko@ale.com</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-7">
-            <form class="kontaktai-forma" data-aos="fade-up" data-aos-delay="200">
-
-              <h3>Susisiekite</h3>
-
-              <form class="kontaktai-forma">
-                <div class="row gy-4">
-
-                  <div class="col-md-6">
-                    <input type="text" name="vardas" class="form-control" placeholder="Vardas" required>
-                  </div>
-
-                  <div class="col-md-6">
-                    <input type="text" name="pavarde" class="form-control" placeholder="Pavardė" required>
-                  </div>
-
-                  <div class="col-md-6">
-                    <input type="email" name="email" class="form-control" placeholder="El. paštas" required>
-                  </div>
-
-                  <div class="col-md-6">
-                    <input type="tel" name="telefonas" class="form-control" placeholder="Telefono numeris" required>
-                  </div>
-
-                  <div class="col-12">
-                    <input type="text" name="adresas" class="form-control" placeholder="Adresas" required>
-                  </div>
-
-                  <!-- 3 vertinimo klausimai 1–10 -->
-                  <div class="col-md-4">
-                    <label class="form-label">Pasitenkinimas paslauga (1–10)</label>
-                    <input type="number" name="vertinimas1" class="form-control" min="1" max="10" value="5" required>
-                  </div>
-
-                  <div class="col-md-4">
-                    <label class="form-label">Bendravimas (1–10)</label>
-                    <input type="number" name="vertinimas2" class="form-control" min="1" max="10" value="5" required>
-                  </div>
-
-                  <div class="col-md-4">
-                    <label class="form-label">Rekomenduotum? (1–10)</label>
-                    <input type="number" name="vertinimas3" class="form-control" min="1" max="10" value="5" required>
-                  </div>
-
-                  <div class="col-12 text-center">
-                    <button type="submit" class="btn">Pateikti duomenis</button>
-                  </div>
-
-                </div>
-              </form>
-
-              <!-- ČIA bus išvedami rezultatai -->
-              <div id="form-result" class="mt-3"></div>
-
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-    </section><!-- /Contact Section -->
-
-
-  </main>
-
-  <footer id="footer" class="footer dark-background">
-
-    <div class="container">
-      <div class="copyright text-center ">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">Style</strong> <span>All Rights Reserved</span></p>
-      </div>
-      <div class="social-links d-flex justify-content-center">
-        <a href=""><i class="bi bi-twitter-x"></i></a>
-        <a href=""><i class="bi bi-facebook"></i></a>
-        <a href=""><i class="bi bi-instagram"></i></a>
-        <a href=""><i class="bi bi-linkedin"></i></a>
-      </div>
-      <div class="credits">
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
+  <!-- Services Section -->
+  <section id="services" class="services section services-gradient">
+    <div class="container section-title">
+      <h2>Servisai</h2>
+      <p>Inžinierius, pardavimo specialistas, smart sensorių supportas.</p>
     </div>
 
-  </footer>
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+      <div class="row g-4">
 
-  <!-- Vendor JS Files -->
-  <!-- <script src="assets/vendor/php-email-form/validate.js"></script> --> <!-- nes neveikia man ktiaip --> 
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="service-item">
+            <div class="icon"><i class="bi bi-stack"></i></div>
+            <h3>Sprendimai</h3>
+            <p>Aš pasiūlau geriausius sprendimus klientų įrangai ir procesams.</p>
+            <div class="card-links">
+              <a href="#" class="link-item">Skaityti daugiau <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="service-item">
+            <div class="icon"><i class="bi bi-speedometer2"></i></div>
+            <h3>Dažnio keitikliai</h3>
+            <p>Parinkimas, paleidimas ir derinimas pagal variklio ir proceso reikalavimus.</p>
+            <div class="card-links">
+              <a href="#" class="link-item">Skaityti daugiau <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="service-item">
+            <div class="icon"><i class="bi bi-broadcast"></i></div>
+            <h3>Smart sensoriai</h3>
+            <p>Stebėsena, diagnostika ir duomenų analizė, kad problemos išryškėtų anksčiau.</p>
+            <div class="card-links">
+              <a href="#" class="link-item">Skaityti daugiau <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="mt-4" data-aos="fade-up" data-aos-delay="150">
+        <h3 class="text-center mb-3">Paslaugų kainoraštis</h3>
+
+        <div class="table-responsive">
+          <table class="services-table">
+            <thead>
+              <tr>
+                <th>Paslauga</th>
+                <th>Aprašymas</th>
+                <th>Kategorija</th>
+                <th>Kaina (Eur)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Dažnio keitiklio parinkimas</td>
+                <td>Keitiklio parinkimas pagal variklį ir apkrovą, schemų peržiūra.</td>
+                <td>Projektavimas</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <td>Paleidimas ir derinimas</td>
+                <td>Keitiklio parametrų suvedimas, bandomasis paleidimas, dokumentacija.</td>
+                <td>Servisas</td>
+                <td>150</td>
+              </tr>
+              <tr>
+                <td>Variklio diagnostika</td>
+                <td>Vibracijos ir izoliacijos patikra, būklės įvertinimas.</td>
+                <td>Diagnostika</td>
+                <td>80</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+          <h3>Vaizdo įrašas (Pexels)</h3>
+          <video controls class="w-100">
+            <source src="assets/media/7534244-hd_1920_1080_25fps.mp4" type="video/mp4">
+            Jūsų naršyklė nepalaiko video žymės.
+          </video>
+        </div>
+
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="500">
+          <h3>YouTube vaizdo įrašas</h3>
+
+          <div class="ratio ratio-16x9">
+            <iframe
+              src="https://www.youtube.com/embed/BoUVIhtqjAw"
+              title="YouTube video"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe>
+          </div>
+
+          <h3 class="mt-4">Garso įrašas (Pixabay)</h3>
+          <audio controls>
+            <source src="assets/media/quartz-clock-ticking-one-minute-253102.mp3" type="audio/mpeg">
+            Jūsų naršyklė nepalaiko audio žymės.
+          </audio>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- /Services Section -->
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio section">
+    <div class="container section-title">
+      <h2>Portfolio</h2>
+      <p>Matlab laboratorinių darbų grafikai.</p>
+    </div>
+
+    <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+      <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+        <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="200">
+          <li data-filter="*" class="filter-active"><i class="bi bi-grid-3x3"></i> Visi projektai</li>
+          <li data-filter=".filter-ui">Varikliai</li>
+          <li data-filter=".filter-development">Dažnio keitikliai</li>
+          <li data-filter=".filter-photography">Smart sensoriai</li>
+          <li data-filter=".filter-marketing">Pardavimai</li>
+        </ul>
+
+        <div class="row g-4 isotope-container" data-aos="fade-up" data-aos-delay="300">
+
+          <div class="col-xl-4 col-lg-4 col-md-6 portfolio-item isotope-item filter-ui">
+            <article class="portfolio-entry">
+              <figure class="entry-image">
+                <img src="assets/img/1.png" class="img-fluid" alt="Matlab laboratorinis grafikas 1">
+                <div class="entry-overlay">
+                  <div class="overlay-content">
+                    <div class="entry-meta">Matlab grafikas</div>
+                    <h3 class="entry-title">Laboratorinis darbas – grafikas 1</h3>
+                    <div class="entry-links">
+                      <a href="assets/img/1.png" class="glightbox" data-gallery="portfolio-gallery-matlab" data-glightbox="title: Matlab grafikas 1; description: Laboratorinis darbas.">
+                        <i class="bi bi-arrows-angle-expand"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </figure>
+            </article>
+          </div>
+
+          <div class="col-xl-4 col-lg-4 col-md-6 portfolio-item isotope-item filter-development">
+            <article class="portfolio-entry">
+              <figure class="entry-image">
+                <img src="assets/img/2.png" class="img-fluid" alt="Matlab laboratorinis grafikas 2">
+                <div class="entry-overlay">
+                  <div class="overlay-content">
+                    <div class="entry-meta">Matlab grafikas</div>
+                    <h3 class="entry-title">Laboratorinis darbas – grafikas 2</h3>
+                    <div class="entry-links">
+                      <a href="assets/img/2.png" class="glightbox" data-gallery="portfolio-gallery-matlab" data-glightbox="title: Matlab grafikas 2; description: Laboratorinis darbas.">
+                        <i class="bi bi-arrows-angle-expand"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </figure>
+            </article>
+          </div>
+
+          <div class="col-xl-4 col-lg-4 col-md-6 portfolio-item isotope-item filter-photography">
+            <article class="portfolio-entry">
+              <figure class="entry-image">
+                <img src="assets/img/3.png" class="img-fluid" alt="Matlab laboratorinis grafikas 3">
+                <div class="entry-overlay">
+                  <div class="overlay-content">
+                    <div class="entry-meta">Matlab grafikas</div>
+                    <h3 class="entry-title">Laboratorinis darbas – grafikas 3</h3>
+                    <div class="entry-links">
+                      <a href="assets/img/3.png" class="glightbox" data-gallery="portfolio-gallery-matlab" data-glightbox="title: Matlab grafikas 3; description: Laboratorinis darbas.">
+                        <i class="bi bi-arrows-angle-expand"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </figure>
+            </article>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section><!-- /Portfolio Section -->
+
+  <!-- Faq Section -->
+  <section id="faq" class="faq section">
+    <div class="container section-title">
+      <h2>FAQ</h2>
+      <p>Dažnai klausiami klausimai</p>
+    </div>
+
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="faq-container">
+            <div class="faq-item faq-active">
+              <h3>Kodėl mokaisi?</h3>
+              <div class="faq-content"><p>Nes reikia.</p></div>
+              <i class="faq-toggle bi bi-chevron-right"></i>
+            </div>
+
+            <div class="faq-item">
+              <h3>Kažką moki?</h3>
+              <div class="faq-content"><p>Aišku, kad ne.</p></div>
+              <i class="faq-toggle bi bi-chevron-right"></i>
+            </div>
+
+            <div class="faq-item">
+              <h3>Ar planuoji eiti į magistratūrą?</h3>
+              <div class="faq-content"><p>Su atmintimi kaip auksinės žuvelės aš tik namo galiu eiti, ir tai į 5 bendrabutį.</p></div>
+              <i class="faq-toggle bi bi-chevron-right"></i>
+            </div>
+
+            <div class="faq-item">
+              <h3>Patinka?</h3>
+              <div class="faq-content"><p>50/50.</p></div>
+              <i class="faq-toggle bi bi-chevron-right"></i>
+            </div>
+
+            <div class="faq-item">
+              <h3>Kodėl patinka vištiena?</h3>
+              <div class="faq-content"><p>Nes skanu.</p></div>
+              <i class="faq-toggle bi bi-chevron-right"></i>
+            </div>
+
+            <div class="faq-item">
+              <h3>Kaip yra?</h3>
+              <div class="faq-content"><p>Normaliai.</p></div>
+              <i class="faq-toggle bi bi-chevron-right"></i>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section><!-- /Faq Section -->
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact section light-background">
+    <div class="container section-title">
+      <h2>Kontaktai</h2>
+      <p>Jei labai reikia – susikontaktuokite.</p>
+    </div>
+
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="about-shapes" aria-hidden="true">
+        <span class="shape shape-circle"></span>
+        <span class="shape shape-square"></span>
+        <span class="shape shape-triangle"></span>
+      </div>
+
+      <div class="row g-4 g-lg-5">
+        <div class="col-lg-5">
+          <div class="info-box" data-aos="fade-up" data-aos-delay="200">
+            <h3>Kontaktinė informacija</h3>
+            <p>Užpildykite duomenis.</p>
+
+            <div class="info-item" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon-box"><i class="bi bi-geo-alt"></i></div>
+              <div class="content">
+                <h4>Aš</h4>
+                <p>5 barakas</p>
+                <p>Lietuva, Vilnius 555555</p>
+              </div>
+            </div>
+
+            <div class="info-item" data-aos="fade-up" data-aos-delay="400">
+              <div class="icon-box"><i class="bi bi-telephone"></i></div>
+              <div class="content">
+                <h4>Telefono numeris</h4>
+                <p>Gal ne.</p>
+                <p>Nu nereikia.</p>
+              </div>
+            </div>
+
+            <div class="info-item" data-aos="fade-up" data-aos-delay="500">
+              <div class="icon-box"><i class="bi bi-envelope"></i></div>
+              <div class="content">
+                <h4>Emailas</h4>
+                <p>mantas@nepasiekiamas.com</p>
+                <p>neturiu_laiko@ale.com</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-lg-7">
+          <!-- ✅ Viena forma (be form viduje form) -->
+          <form id="contact-form" class="kontaktai-forma" data-aos="fade-up" data-aos-delay="200">
+            <h3>Susisiekite</h3>
+
+            <div class="row gy-4">
+
+              <div class="col-md-6">
+                <input type="text" name="vardas" class="form-control" placeholder="Vardas" required>
+              </div>
+
+              <div class="col-md-6">
+                <input type="text" name="pavarde" class="form-control" placeholder="Pavardė" required>
+              </div>
+
+              <div class="col-md-6">
+                <input type="email" name="email" class="form-control" placeholder="El. paštas" required>
+              </div>
+
+              <div class="col-md-6">
+                <input type="tel" name="telefonas" class="form-control" placeholder="Telefono numeris" required>
+              </div>
+
+              <div class="col-12">
+                <input type="text" name="adresas" class="form-control" placeholder="Adresas" required>
+              </div>
+
+              <div class="col-md-4">
+                <label class="form-label">Pasitenkinimas paslauga (1–10)</label>
+                <input type="number" name="vertinimas1" class="form-control" min="1" max="10" value="5" required>
+              </div>
+
+              <div class="col-md-4">
+                <label class="form-label">Bendravimas (1–10)</label>
+                <input type="number" name="vertinimas2" class="form-control" min="1" max="10" value="5" required>
+              </div>
+
+              <div class="col-md-4">
+                <label class="form-label">Rekomenduotum? (1–10)</label>
+                <input type="number" name="vertinimas3" class="form-control" min="1" max="10" value="5" required>
+              </div>
+
+              <div class="col-12 text-center">
+                <button type="submit" class="btn btn-primary">Pateikti duomenis</button>
+              </div>
+
+            </div>
+          </form>
+
+          <div id="form-result" class="mt-3"></div>
+        </div>
+
+      </div>
+    </div>
+  </section><!-- /Contact Section -->
+
+  <!-- ✅ Memory Game Section -->
+  <section id="memory-game" class="memory-game section light-background">
+    <div class="container section-title">
+      <h2>Mano Žaidimas</h2>
+      <p>Atminties kortelių žaidimas (Flip Card Memory)</p>
+    </div>
+
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+      <div class="game-controls">
+        <div class="difficulty">
+          <span class="control-label">Sudėtingumas:</span>
+
+          <label class="pill">
+            <input type="radio" name="mg-difficulty" value="easy" checked>
+            Lengvas (4×3)
+          </label>
+
+          <label class="pill">
+            <input type="radio" name="mg-difficulty" value="hard">
+            Sunkus (6×4)
+          </label>
+        </div>
+
+        <div class="stats">
+          <div class="stat">
+            <span class="value" id="mg-moves">0</span>
+            <span class="label">Ėjimai</span>
+          </div>
+          <div class="best-scores">
+  <div><strong>Geriausias (Lengvas):</strong> <span id="mg-best-easy">—</span></div>
+  <div><strong>Geriausias (Sunkus):</strong> <span id="mg-best-hard">—</span></div>
+</div>
+          <div class="stat">
+            <span class="value" id="mg-matches">0</span>
+            <span class="label">Sutapusios poros</span>
+          </div>
+          <div class="stat">
+            <span class="value" id="mg-time">0:00</span>
+            <span class="label">Laikas</span>
+          </div>
+        </div>
+
+        <div class="buttons">
+          <button id="mg-start" type="button" class="btn btn-primary">Start</button>
+          <button id="mg-reset" type="button" class="btn btn-outline">Atnaujinti</button>
+        </div>
+      </div>
+
+      <div id="mg-message" class="game-message" aria-live="polite"></div>
+      <div id="mg-board" class="game-board" aria-label="Atminties kortelių lenta"></div>
+
+    </div>
+  </section><!-- /Memory Game Section -->
+
+</main>
+
+<footer id="footer" class="footer dark-background">
+  <div class="container">
+    <div class="copyright text-center ">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Style</strong> <span>All Rights Reserved</span></p>
+    </div>
+    <div class="social-links d-flex justify-content-center">
+      <a href=""><i class="bi bi-twitter-x"></i></a>
+      <a href=""><i class="bi bi-facebook"></i></a>
+      <a href=""><i class="bi bi-instagram"></i></a>
+      <a href=""><i class="bi bi-linkedin"></i></a>
+    </div>
+    <div class="credits">
+      Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+    </div>
+  </div>
+</footer>
+
+<a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+  <i class="bi bi-arrow-up-short"></i>
+</a>
+
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+<script src="assets/vendor/typed.js/typed.umd.js"></script>
+<script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
 <script>
   window.addEventListener('load', function () {
     document.body.classList.add('preload-done');
   });
 </script>
 
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
-  <script src="assets/js/custom.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/custom.js"></script>
 
 </body>
 </html>
